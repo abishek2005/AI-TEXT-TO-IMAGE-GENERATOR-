@@ -4,6 +4,7 @@
 #OPEN TERMINAL IN VS CODE THEN TYPE THE FOLLOWING COMMANDS:-
 
 python -m venv venv
+
 .\venv\Scripts\activate
 
 
@@ -11,6 +12,7 @@ python -m venv venv
 #IF IT THROWS ANY ERROR JUST COPY THIS COMMAND :-
 
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
 .\venv\Scripts\activate
 
 
@@ -18,6 +20,7 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 #Now for installing its dependencies:-
 
 pip install --upgrade diffusers transformers accelerate mediapy peft
+
 pip install mediapy
 
 
